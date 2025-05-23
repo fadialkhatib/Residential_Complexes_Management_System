@@ -57,7 +57,7 @@
         </button>
 
         <div class="login-link">
-          <p>ليس لديك حساب بالفعل؟  <a href="'http://127.0.0.1:8000/api/register'">إنشاء حساب جديد</a></pل>
+          <p>ليس لديك حساب بالفعل؟  <a href="http://127.0.0.1:8000/api/register">إنشاء حساب جديد</a></pل>
         </div>
       </form>
     </div>

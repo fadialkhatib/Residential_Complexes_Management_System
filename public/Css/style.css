@@ -116,24 +116,19 @@ body {
     .border-inner::before {
       content: '';
       position: absolute;
-      width: calc(100% + 20px);
-      height: calc(100% + 20px);
-      top: -10px;
-      left: -10px;
-      background: linear-gradient(45deg,
-          rgba(255, 49, 83, 0.8),
-          rgba(255, 136, 17, 0.8),
-          rgba(6, 161, 223, 0.8),
-          rgba(0, 117, 255, 0.8));
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+      top: -5px;
+      left: -5px;
+      background: linear-gradient(45deg,          rgba(255, 49, 83, 0.8),          rgba(255, 136, 17, 0.8),          rgba(6, 161, 223, 0.8),          rgba(0, 117, 255, 0.8));
       background-size: 300% 300%;
       border-radius: 15px;
       transform: translateZ(-10px);
       animation: gradientBg 8s ease infinite;
-      filter: blur(4px);
-      box-shadow:
-        0 15px 35px rgba(0, 0, 0, 0.4),
-        0 5px 15px rgba(0, 0, 0, 0.2);
-    }
+      filter: blur(2px);
+      box-shadow:        0 15px 35px rgba(0, 0, 0, 0.4),        0 5px 15px rgba(0, 0, 0, 0.2);
+      -webkit-filter: blur(2px);
+}
 
     .border-inner img {
       position: relative;
@@ -142,7 +137,7 @@ body {
       object-fit: cover;
       border-radius: 10px;
       transform: translateZ(0);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
     }
 
   }
